@@ -189,19 +189,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// Código JSON-LD para dados estruturados
-const jsonLd = {
-  "@context": "http://schema.org",
-  "@type": "Person",
-  "name": "Bernardo Figueiredo",
-  "jobTitle": "Digital Marketeer",
-  "url": "http://bernardofigueiredo.pt",
-  "sameAs": [
-    "https://www.linkedin.com/in/bernardoffigueiredo",
-    "https://www.behance.net/bernardofigueiredo"
-  ]
-};
-
 // Cria um novo elemento <script> para JSON-LD
 const script = document.createElement('script');
 script.type = 'application/ld+json';
