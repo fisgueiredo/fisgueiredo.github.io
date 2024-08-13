@@ -1,0 +1,9 @@
+# robots.txt para https://www.bernardofigueiredo.pt/
+
+# Permite que todos os bots acessem todas as áreas do site
+User-agent: *
+Disallow:
+
+
+# Especifica o URL do sitemap
+Sitemap: https://www.bernardofigueiredo.pt/sitemap.xml
